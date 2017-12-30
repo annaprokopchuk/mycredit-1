@@ -1,0 +1,48 @@
+// section content
+.section-content {
+  padding: 10px 0;
+  margin: 0 -15px;
+}
+
+// section carousel
+.section-carousels {
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .section-carousels {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, 
+  .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, 
+  .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: none;
+  }
+}
+
+// section-aside
+.section-aside { 
+  border-radius: 6px;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .section-aside { 
+    margin: 0 auto;
+  }
+}
+
+// section sitebar 
+.section-sitebar {
+  margin-bottom: 9px;
+  .section-title {
+    font-family: $font-family-roman;
+    font-size: $font-size-xxl;
+    font-weight: 700;
+    margin-bottom: 31px;
+    color: $primari-color;
+    margin-top: 0;
+  }
+}

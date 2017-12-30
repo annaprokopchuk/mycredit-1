@@ -1,0 +1,63 @@
+.sitebar {
+  line-height: 0;
+  .sitebar-list {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+  }
+  .list-item {
+    float: left;
+    border: 1px solid $color-lighten;
+    border-right: none;
+    background-color: $white-color;
+    min-width: 190px;
+    &:last-child {
+      border-right: 1px solid $color-lighten;
+    }
+  }
+  .list-link {
+    display: table;
+    padding: 8px 15px 10px 12px;
+    color: $global-tex-color;
+    &:hover, &:focus {
+      color: $white-color;
+      text-decoration: none;
+      background-color: $primari-color;
+      svg  path {
+        fill: $primari-color;
+      }
+    }
+  }
+  .card-image {
+    display: table-cell;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid $color-lighten;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  $white-color;
+    line-height: 0;
+  }
+  .link-name {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-family: $font-family-roman;
+    font-weight: 400;
+    font-size: $font-size-m;
+  }
+  .is-active {
+    text-decoration: none;
+    background-color: $primari-color;
+    svg  path {
+      fill: $primari-color;
+    }
+    .link-name {
+      color: $white-color;
+    }
+  }
+}

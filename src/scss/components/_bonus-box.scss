@@ -1,0 +1,64 @@
+.box-1 {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.bonus-box {
+  background-color: $white-color;
+  padding: 15px 20px;
+  border-radius: 6px;
+  .header-box {
+    background-color: #d7e9ff;
+    display: table;
+    font-size: $font-size-m;
+    border-radius: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 0.8;
+    .level {
+    display: table-cell;
+    padding: 10px 15px 9px 12px;
+    border-right: 1px solid #b5cce8;
+    font-weight: 700;
+    color: $primari-color;
+    }
+    .points {
+      display: table-cell;
+      padding: 10px 15px 9px 12px;   
+      font-family: $font-family-roman;
+      font-weight: 400;
+      color: $secondary-tex-color; 
+    }
+  }
+  .content-box-title {
+    font-size: $font-size-m;
+    font-family: $font-family-roman;
+    color: $secondary-tex-color;
+    margin-bottom: 7px;
+  }
+  .image-box {
+    line-height: 0;
+  }
+  .sales-img {
+    float: left;
+  }
+  .bonus-img {
+    float: left;
+    margin-left: -10px;
+  }
+  .body-box {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .content-box {
+    display: table;
+    margin: 0 auto;
+  }
+  .active-box {
+    text-align: center;
+    .box-link {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.card-contact {
+  padding: 0 15px;
+  float: right;
+  .card-header {
+    .list-contacts {
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+  .list-contacts {
+    list-style: none;
+    margin-bottom: 27px;
+    padding-left: 0;
+  }
+  .primary-phone {
+    font-size: $font-size-xl;
+    font-weight: 400;
+    font-family: $font-family-roman;
+  }
+  .phone-description {
+    opacity: 0.8;
+  }
+  .card-body {
+    font-size: $font-size-l;
+    .list-item {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 10px;
+    }
+    .list-item:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      display: table;
+      background-image: url('../images/icon-bond-1.svg');
+      width: 22px;
+      height: 22px;
+    }
+    .phone-2:before {
+      background-image: url('../images/icon-bond-2.svg');
+      width: 24px;
+      height: 23px;
+    }
+    .phone-3:before {
+      background-image: url('../images/icon-bond-3.svg');
+      width: 23px;
+      height: 22px;
+    }
+  }
+}

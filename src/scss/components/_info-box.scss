@@ -1,0 +1,45 @@
+.box-2 {
+  border-radius: 6px;
+}
+
+.info-box {
+  position: relative;
+  border-radius: 6px;
+  min-height: 287px;
+  .image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .foreground-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.5;
+  }
+  .content-box {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    color: $white-color;
+    text-align: center;
+  }
+  .content-title {
+    text-transform: uppercase;
+    font-size: $font-size-l;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 1.3;
+  }
+}

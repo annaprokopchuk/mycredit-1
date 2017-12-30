@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mycredit</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      {{> navigation/navigation}}
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="section-sitebar">
+        <h2 class="section-title">Мои бонусы</h2>
+        {{> sitebar/sitebar}}
+      </section>
+
+
+      <div class="section-content clearfix">
+        <section class="section-carousels col-lg-9 col-md-8 col-sm-7 col-xs-10">
+          <div class="carousel-wrapp">
+            <h4 class="carousel-title">Мои скидки</h4>
+            {{> carousels/sales-carousel}}
+          </div>
+          <div class="carousel-wrapp">
+            <h4 class="carousel-title">Моя доступная сумма</h4>
+            {{> carousels/amount-carousel}}
+          </div>
+          <div class="carousel-wrapp">
+            <h4 class="carousel-title">Моя активность</h4>
+            {{> carousels/activity-carousel}}
+          </div>
+          <div class="carousel-wrapp">
+            <h4 class="carousel-title">Мой статус</h4>
+            {{> carousels/status-carousel}}
+          </div>
+          <div class="carousel-wrapp">
+            <h4 class="carousel-title">Мои достижения</h4>
+            {{> carousels/progress-carousel}}
+          </div>
+        </section>
+        <aside class="section-aside col-lg-3 col-md-4 col-sm-5 col-xs-6">
+          <div class="box-1">
+            {{> aside/bonus-box}}
+          </div>
+          <div class="box-2">
+            {{> aside/info-box}}
+          </div>   
+        </aside>
+      </div>
+     
+    </div>
+  </main>
+  <footer class="footer">
+    {{> footer/footer}}
+  </footer>
+</body>
+</html>

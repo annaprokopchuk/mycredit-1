@@ -1,0 +1,40 @@
+.card-feature {
+  margin-right: 15px;
+  .card-header {
+    display: table;
+    margin-bottom: 5px;
+    .card-img {
+      display: table-cell;
+      padding-right: 10px;
+      vertical-align: middle;
+    }
+    .card-description {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: $font-size-xs;
+      font-family: $font-family-italic;
+      line-height: 1.3;
+      p {
+        margin: 0;
+      }
+      .card-link {
+        display: block;
+        margin-top: 10px;
+        font-weight: 700;
+        text-decoration: underline;
+        color: $primari-color;
+        &:hover, &:focus, &:active {
+          color: $secondary-tex-color;
+        }
+      }
+    }
+  }
+  .card-footer {
+    .card-title {
+      font-size: $font-size-m;
+      color: $secondary-tex-color;
+      font-family: $font-family-roman;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+// carousel wrapp
+.carousel-wrapp {
+  padding: 26px 20px 28px 57px;
+  border-bottom: 1px solid $color-lighten;
+  background-color: $white-color;
+  .carousel-title {
+    margin-bottom: 18px;
+    font-size: $font-size-l;
+    color: $primari-color;
+    font-family: $font-family-medium;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// style navigation carousel
+.owl-carousel {
+  position: relative;
+  .owl-next{
+    position: absolute;
+    top: 27%;
+    right: 5px;
+    background-image: url("../images/arrow-right.svg");
+    background-size: cover;
+    width: 8px;
+    height: 13px;
+    fill: $primari-color;
+  }
+  .owl-prev{
+    background-image: url("../images/arror-left.svg");
+    background-size: cover;
+    width: 8px;
+    height: 13px;
+    position: absolute;
+    top: 27%;
+    left: -27px;
+  }
+  
+}
