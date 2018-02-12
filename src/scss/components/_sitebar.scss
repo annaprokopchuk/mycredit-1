@@ -22,6 +22,7 @@
     display: table;
     padding: 8px 15px 10px 12px;
     color: $global-tex-color;
+    width: 100%;
     &:hover, &:focus {
       color: $white-color;
       text-decoration: none;
